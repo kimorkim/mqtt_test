@@ -2,8 +2,8 @@
   "name": "mqtt_test",
   "version": "1.0.0",
   "description": "electron mqtt test",
-  "main": "index.js",
   "scripts": {
+    "start": "electron -debug client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kimorkim/mqtt_test/issues"
   },
-  "homepage": "https://github.com/kimorkim/mqtt_test#readme"
+  "homepage": "https://github.com/kimorkim/mqtt_test#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "electron": "^1.4.12"
+  }
 }
